@@ -1,7 +1,7 @@
 
   # Lumina Bank Website Design
 
-  This is a code bundle for Lumina Bank Website Design. The original project is available at https://www.figma.com/design/Mw6Daz3VEpCtgJS6YMMIfT/Lumina-Bank-Website-Design.
+  This is a code bundle for Lumina Bank Website Design. The original project was done in Figma.
 
   ## Running the code
 
