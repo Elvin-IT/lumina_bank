@@ -1,0 +1,10 @@
+# See https://github.com/github/gitignore for more details
+node_modules/
+dist/
+build/
+.vite/
+.env
+.env.local
+.DS_Store
+.idea/
+*.log
