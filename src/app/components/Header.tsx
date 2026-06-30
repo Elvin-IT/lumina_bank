@@ -61,20 +61,8 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2.5 shrink-0">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                <path d="M9 2L15.5 6V12L9 16L2.5 12V6L9 2Z" fill="white" opacity="0.3" />
-                <path d="M9 2L15.5 6V9H9V2Z" fill="white" />
-                <path d="M9 9H15.5V12L9 16V9Z" fill="white" opacity="0.6" />
-              </svg>
-            </div>
-            <span
-              className="text-foreground"
-              style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700, fontSize: "1.125rem", letterSpacing: "-0.02em" }}
-            >
-              Lumina<span style={{ color: "var(--primary)" }}>Bank</span>
-            </span>
+          <Link to="/" className="flex items-center shrink-0">
+            <img src="https://i.ibb.co/NdJvwCd6/design-Site-logo-3.png" alt="Lumina Bank Logo" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop nav */}

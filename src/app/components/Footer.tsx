@@ -42,20 +42,8 @@ export function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-12">
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2.5 mb-5">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                  <path d="M9 2L15.5 6V12L9 16L2.5 12V6L9 2Z" fill="white" opacity="0.3" />
-                  <path d="M9 2L15.5 6V9H9V2Z" fill="white" />
-                  <path d="M9 9H15.5V12L9 16V9Z" fill="white" opacity="0.6" />
-                </svg>
-              </div>
-              <span
-                className="text-white"
-                style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700, fontSize: "1.125rem", letterSpacing: "-0.02em" }}
-              >
-                LuminaBank
-              </span>
+            <Link to="/" className="flex items-center mb-5">
+              <img src="https://i.ibb.co/WvfLZcNC/design-White-version-3x-8.png" alt="Lumina Bank Logo" className="h-12 w-auto" />
             </Link>
             <p className="text-sm leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.6)" }}>
               A digital-first regional bank serving individuals and businesses across Southern and East Africa. Headquartered in Lilongwe, Malawi.
